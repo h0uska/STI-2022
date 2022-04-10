@@ -79,6 +79,7 @@ středníkem. Historie měny se ukládá od té doby, co se spustí server.
     (datumPoslednihoZaznamuKurzu)”.
 4. Na dotaz ”historie kurzu EUR vůči CZK” bude klientská část zobrazovat uživateli
     data v jednoduché tabulce a to konkrétně:
+    
     ”datum“ (ve formátu DD.MM.RRRR) a “kurz” (kurz měny při množství 1 vůči CZK)
 
 **Podmínky :**
