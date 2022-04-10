@@ -54,12 +54,19 @@ fungovat bez problémů.
 **Formát dat z ČNB** :
 
 08.04.2022 #70
+
 země|měna|množství|kód|kurz
+
 Austrálie|dolar|1|AUD|16,828
+
 Brazílie|real|1|BRL|4,752
+
 Bulharsko|lev|1|BGN|12,518
+
 Čína|žen-min-pi|1|CNY|3,543
+
 Dánsko|koruna|1|DKK|3,292
+
 EMU|euro|1|EUR|24,485
 
 Z těchto dat budou použity položky ”datum“ (ve formátu DD.MM.RRRR) a položky řádku
