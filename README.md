@@ -80,7 +80,7 @@ středníkem. Historie měny se ukládá od té doby, co se spustí server.
     data v jednoduché tabulce a to konkrétně:
     ”datum“ (ve formátu DD.MM.RRRR) a “kurz” (kurz měny při množství 1 vůči CZK)
 
-**Podmínky ** :
+**Podmínky :**
 
 Pokud je v jedné zprávě více než jeden dotaz, potom klientská část posílá serveru
 pouze první nalezený dotaz ve zprávě.
