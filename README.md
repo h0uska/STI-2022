@@ -1,8 +1,4 @@
-# Dokument Specifikace Požadavků
-
-## STI
-
-## Semestrální práce
+# STI Semestrální práce dokument Specifikace Požadavků
 
 
 ## Zadání
@@ -45,7 +41,7 @@ Klientská část bude zobrazovat historii otázek a odpovědí, pole pro zápis
 pro odeslání dotazu.
 
 
-## P ožadavky
+## Požadavky
 
 Pro porovnání kurzu EUR vůči CZK se budou používat data z adres:
 https://www.cnb.cz/cs/financni-trhy/devizovy-trh/kurzy-devizoveho-trhu/kurzy-devizoveho-
@@ -101,7 +97,7 @@ minut, dokud data pro daný den nejsou nalezena.
     musí obsahovat slova, “history“ a “EUR“ a to přesně jak jsou uvedena.
 
 
-## O mezení a jiné specifikace
+## Omezení a jiné specifikace
 
 1. Klientská část je vytvořena pro systém WINDOWS 10 (64 bit) a není zaručena
     funkčnost na jiném systému.
