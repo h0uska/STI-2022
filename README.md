@@ -53,9 +53,20 @@ fungovat bez problémů.
 
 **Formát dat z ČNB** :
 
+08.04.2022 #70
+země|měna|množství|kód|kurz
+Austrálie|dolar|1|AUD|16,828
+Brazílie|real|1|BRL|4,752
+Bulharsko|lev|1|BGN|12,518
+Čína|žen-min-pi|1|CNY|3,543
+Dánsko|koruna|1|DKK|3,292
+EMU|euro|1|EUR|24,485
+
 Z těchto dat budou použity položky ”datum“ (ve formátu DD.MM.RRRR) a položky řádku
 s kódem měny EUR a to:
+
 “množství”, “kód” (kód měny) a “kurz” (kurz měny vůči CZK).
+
 Server si bude ukládat tato data do textového souboru “historie_meny“ ve formátu TXT, kdy
 každý řádek bude obsahovat položku ”datum“ (ve formátu DD.MM.RRRR) ), “množství”,
 “kód” (kód měny) a “kurz” (kurz měny vůči CZK). Všechna tato data budou oddělena
@@ -73,13 +84,17 @@ středníkem. Historie měny se ukládá od té doby, co se spustí server.
     ”datum“ (ve formátu DD.MM.RRRR) a “kurz” (kurz měny při množství 1 vůči CZK)
 
 **Podmínky:**
- Pokud je v jedné zprávě více než jeden dotaz, potom klientská část posílá serveru
+
+Pokud je v jedné zprávě více než jeden dotaz, potom klientská část posílá serveru
 pouze první nalezený dotaz ve zprávě.
- Pokud není ve zprávě uveden žádný dotaz, potom klientská část uživateli zobrazí
+
+Pokud není ve zprávě uveden žádný dotaz, potom klientská část uživateli zobrazí
 nápovědu.
- Pokud server neodpoví, potom bude klientská část zobrazovat odpověď “the server is
+
+Pokud server neodpoví, potom bude klientská část zobrazovat odpověď “the server is
 not answering“.
-Aktualizace dat:
+
+**Aktualizace dat** :
 
 Při prvním spuštění serveru se data “historie_meny“ aktualizují okamžitě, aby se do aplikace
 dostali data k zobrazení pro ten daný den. Pokud dojde při stahování těchto dat k chybě, nebo
@@ -105,5 +120,5 @@ minut, dokud data pro daný den nejsou nalezena.
 2. Je dáno, že zařízení, na kterém klientská část poběží bude mít alespoň 8 GB RAM a
     minimálně dvoujádrový CPU.
 3. Klientská část bude odevzdána v ZIP souboru.
-4. Maximální velikost klientské části je 5 00 MB.
-5. Programování a testování serverové a klientské části potrvá přibližně 12 0 hodin.
+4. Maximální velikost klientské části je 500 MB.
+5. Programování a testování serverové a klientské části potrvá přibližně 120 hodin.
