@@ -56,7 +56,9 @@ fungovat bez problémů.
 08.04.2022 #70
 
 země|měna|množství|kód|kurz
-
+.
+.
+.
 EMU|euro|1|EUR|24,485
 
 Z těchto dat budou použity položky ”datum“ (ve formátu DD.MM.RRRR) a položky řádku
