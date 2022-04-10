@@ -50,6 +50,7 @@ RRR
 Pro bezproblémový chod je nutné, aby struktura stahovaných dat zůstala stejná, jako je
 specifikováno níže. Pokud se formát dat změní, není možné garantovat, že aplikace bude
 fungovat bez problémů.
+
 **Formát dat z ČNB** :
 
 Z těchto dat budou použity položky ”datum“ (ve formátu DD.MM.RRRR) a položky řádku
@@ -71,7 +72,6 @@ středníkem. Historie měny se ukládá od té doby, co se spustí server.
     data v jednoduché tabulce a to konkrétně:
     ”datum“ (ve formátu DD.MM.RRRR) a “kurz” (kurz měny při množství 1 vůči CZK)
 
-
 **Podmínky:**
  Pokud je v jedné zprávě více než jeden dotaz, potom klientská část posílá serveru
 pouze první nalezený dotaz ve zprávě.
@@ -85,6 +85,7 @@ Při prvním spuštění serveru se data “historie_meny“ aktualizují okamž
 dostali data k zobrazení pro ten daný den. Pokud dojde při stahování těchto dat k chybě, nebo
 pokud nejsou data pro daný den zatím dostupná, server se je pokusí obnovit každých 60
 minut, dokud data pro daný den nejsou nalezena.
+
 **Dotazy uživatele** :
 
 1. Pokud se uživatel ptá na dotaz “jaký je čas“, potom jeho dotaz musí obsahovat slova
