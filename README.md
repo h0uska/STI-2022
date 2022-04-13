@@ -1,5 +1,5 @@
 # STI Semestrální práce dokument Specifikace Požadavků
-
+## AUTOR: Martin Kracman
 
 ## Zadání
 
